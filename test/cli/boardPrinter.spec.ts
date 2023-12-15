@@ -12,7 +12,7 @@ describe('BoardPrinter', () => {
     board = new Board(8);
     board.set(0, 7, PIECES.BLACK_PAWN);
     board.set(1, 6, PIECES.WHITE_PAWN);
-    board = BoardFactory.createStandardBoard();
+    board = BoardFactory.createStandardBoard(true);
   });
 
   describe('print()', () => {
