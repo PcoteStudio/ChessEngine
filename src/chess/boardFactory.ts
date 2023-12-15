@@ -2,7 +2,7 @@ import Board from '../chess/board';
 import { PIECES } from '../chess/piece';
 
 export class BoardFactory {
-  static createStandardBoard(whiteAtBottom = true): Board {
+  static createStandardBoard(whiteAtBottom: boolean): Board {
     const board = new Board(8);
 
     for (let x = 0; x < board.size; x++) {

@@ -32,6 +32,14 @@ class Board {
     return this.board[x + (y * this.size)];
   }
 
+  isEmpty(x: number, y:number): boolean {
+    return this.get(x, y) === PIECES.NONE;
+  }
+
+  isInBounds(x: number, y: number): boolean {
+    return (x < this.size && x >= 0 && y < this.size && y >= 0);
+  }
+
   count(): number {
     return this.board.reduce((sum : number, piece : Piece) => sum + (piece > 0 ? 1 : 0), 0);
   }
