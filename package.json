@@ -8,7 +8,7 @@
     "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts",
     "test": "mocha -r ts-node/register --loader=ts-node/esm --es-module-specifier-resolution=node -c test/**/*.ts",
-    "test:coverage": "c8 npm run test"
+    "test:coverage": "c8 --all npm run test"
   },
   "repository": {
     "type": "git",
