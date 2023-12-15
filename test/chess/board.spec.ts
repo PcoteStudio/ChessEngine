@@ -5,7 +5,7 @@ import { ArgumentOutOfBounds } from '../../src/chess/error';
 import { beforeEach } from 'mocha';
 
 describe('Board', () => {
-  describe('constructor', () => {
+  describe('constructor()', () => {
     it('should create a board of any positive size', () => {
       let board = new Board(0);
       chai.assert.equal(board.size, 0);
@@ -51,7 +51,7 @@ describe('Board', () => {
     });
   });
 
-  describe('count', () => {
+  describe('count()', () => {
     const size = 4;
     let board: Board;
 
@@ -76,7 +76,7 @@ describe('Board', () => {
     });
   });
 
-  describe('get', () => {
+  describe('get()', () => {
     const size = 4;
     let board: Board;
 
@@ -118,7 +118,7 @@ describe('Board', () => {
     });
   });
 
-  describe('set', () => {
+  describe('set()', () => {
     const size = 5;
     let board: Board;
 
