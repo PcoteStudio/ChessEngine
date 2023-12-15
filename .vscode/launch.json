@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npm",
+      "args": ["run", "dev"],
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "name": "Unit tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npm",
+      "args": ["run", "test"],
+      "cwd": "${workspaceRoot}"
+    }
+  ]
+}
