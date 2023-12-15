@@ -1,0 +1,8 @@
+{ 
+    "coverageAnalysis": "perTest", 
+    "tsconfigFile": "tsconfig.json", 
+    "mutator": "typescript", 
+    "transpilers": [
+        "typescript"
+    ]
+}
