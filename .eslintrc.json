@@ -14,6 +14,8 @@
     "linebreak-style": "off",
     "no-process-env": "off",
     "no-console": "off",
-    "init-declarations":"off"
+    "init-declarations":"off",  
+    "filenames/match-regex": "off",
+    "complexity":"off"
   }
 }
