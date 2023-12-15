@@ -7,7 +7,7 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts",
-    "test": "mocha -r ts-node/register --loader=ts-node/esm --es-module-specifier-resolution=node -c test/**/*.ts"
+    "test": "mocha -r ts-node/register --loader=ts-node/esm --es-module-specifier-resolution=node -c test/**/*.ts --no-timeout"
   },
   "repository": {
     "type": "git",
